@@ -60,5 +60,5 @@ jobs:
             docker run -d \
               --name 28-decrease-stock \
               --restart always \
-              -p 3065:3065 \
+              -p 3068:3068 \
               kalemat/28-decrease-stock:${{ steps.set-vars.outputs.tag }}
